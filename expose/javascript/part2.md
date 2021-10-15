@@ -9,3 +9,24 @@
 9. The code will cause an error because i is defined using keyword let within the scope of the for loop. Thus, i is not accessible outside of the loop.
 10. Line 12 will print out the length variable to the console since it's defined within the scope of the function using keyword const.
 11. The function will return the discounted array with three discounted prices populated. This is because when we're adding to an array or object we're not re-declaring the array but only adding values to the list the constant pointer points to.
+12. A. student.name
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[0]
+13. A. '32' since integer 2 maps to the exact string
+    B. 1 since string '3' is converted to number 3
+    C. 3 since null maps to integer 0
+    D. '3null' since null is converted to string
+    E. 4 since true is converted to 1
+    F. 0 since false and null both map to 0
+    G. '3undefined' since undefined is converted to the exact string
+    H. NaN since undefined is converted to a non-numeric string
+14. A. true since '2' is converted to the number 2
+    B. false because alphabetically 1 is less than 2
+    C. true because string '2' is converted to number 2
+    D. false because they are of different data types
+    E. false because the numerical value of true is 1
+    F. true because the boolean value of 2 is true
+15. == returns true if the two variables have the same value after type conversion while === returns true if and only if the two variables have the same type and value.
+    
