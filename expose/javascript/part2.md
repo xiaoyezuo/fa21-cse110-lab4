@@ -29,4 +29,6 @@
     E. false because the numerical value of true is 1
     F. true because the boolean value of 2 is true
 15. == returns true if the two variables have the same value after type conversion while === returns true if and only if the two variables have the same type and value.
-    
+17. The function will return an array that has double the values at each index of the original array input, which is [2, 4, 6] is this case. This is because in the for loop of modifyArray function, we double the value for the original array's elements and push the new value to the new array.
+19.   1 4 3 2
+
