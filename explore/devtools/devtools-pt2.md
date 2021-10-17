@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are stored as strings. So when addition is performed, the result ends up being the string concatenation instead of arithmetic addition.
+2. I fixed the bug by converting both num1 and num2 into integers using parseInt() before adding them up. 
